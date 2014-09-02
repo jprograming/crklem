@@ -1,0 +1,19 @@
+body{
+	padding-bottom: 40px;
+}
+textarea { resize:none; }
+
+footer{ margin-top: 12px; }
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+div#dinamic-view > div.box{
+	min-height: 430px;
+}
+
+.hide{ display: none; }
+
+/* ocultar la etiqueta legend cuando se use el ajax uploader*/
+.ax-legend{ display: none; }
+

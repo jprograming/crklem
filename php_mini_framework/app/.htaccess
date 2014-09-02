@@ -1,0 +1,3 @@
+
+#evitar listar directorios
+Options -Indexes 

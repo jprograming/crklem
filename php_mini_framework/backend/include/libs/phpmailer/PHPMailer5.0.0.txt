@@ -1,0 +1,2 @@
+DESIGNED FOR: PHP5/PHP6.
+Version: 5.0.0 (April 02, 2009)

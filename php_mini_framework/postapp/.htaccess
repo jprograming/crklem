@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^(app) ../assets/errors/404.php [L,NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
