@@ -1,6 +1,5 @@
 
 declare
-% PRIMER PUNTO
 fun{Sol S}
    % obtener una columna
    fun{Col Tab Pos}
@@ -52,7 +51,7 @@ in
       {FD.distribute ff {Flatten Tab}}
    end
 end
-% tablero parametro(no es el del taller), extraido de un juego de sudoku para pc, nivel Very Hard
+% tablero extraido de un juego de sudoku nivel Very Hard
 fun{Sudoku}
   [[9 _ _ 6 _ _ _ _ 8]
    [_ _ _ _ _ _ _ 4 _]
